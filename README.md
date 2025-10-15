@@ -47,6 +47,6 @@ Combines the base directional lighting with all spotlight contributions.
 ---
 
 ## 🎥 Demo Video  
-🎬 [Watch the full walkthrough on YouTube](https://your-link-here)
+🎬 [Watch the full walkthrough on YouTube](https://youtu.be/156eYISoDps)
 
 This demo explains the pipeline structure — from G-Buffer creation to light blending — and how the shaders and C# scripts connect together.
