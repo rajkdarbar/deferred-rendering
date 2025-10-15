@@ -6,9 +6,9 @@ This project implements a **custom deferred rendering pipeline** from scratch in
 
 ## 🔹 Overview
 
-- Built a **G-Buffer pass** to capture per-pixel data (Albedo, Normal, Specular, View Position, and Depth).  
+- Built a **G-Buffer pass** to capture per-pixel data (Albedo, Normal, Specular, View Position, View Z, and Depth).  
 - Used a **Directional Light Pass** on G-Buffer data to compute the base lighting.  
-- Created **procedural spotlight cones** and rendered per-light intersection masks to identify affected pixels.  
+- Created **procedural spotlight cones** and and rendered an intersection mask for each light to identify affected pixels.
 - **Blended** each spotlight’s contribution with the base directional light pass to produce the final image.
 
 ---
